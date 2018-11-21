@@ -83,9 +83,33 @@ const myClock = () => {
 //
 // };
 
+
+// let i = 0;
+// let j = 13;
+// let k = 24;
+
+// const grayBackground = () => {
+//
+//   document.body.style.backgroundColor = "rgba("+i+","+j+","+k+",1)";
+//
+//   if (i >=250 || j >=250 || k >= 250) {
+//     i = 0;
+// 	j = 13;
+//     k = 24;
+//   }
+//
+//   i += 5;
+//   j += 5;
+//   k += 5;
+//
+// };
+
 $(document).ready( () => {
 
   window.setInterval(myClock, 1000);
   buttonWhisperer();
   // window.setInterval(grayBackground, 1000);
 });
+
+
+// Dan's Closure Way: https://codepen.io/adadev/pen/ZmbMdq
